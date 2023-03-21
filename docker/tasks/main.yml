@@ -32,6 +32,7 @@
       - docker-ce
       - docker-ce-cli 
       - containerd.io
+      - docker-compose
   when:
     - ansible_distribution == "Ubuntu"
     - ansible_distribution_version == "20.04" or "22.04"
